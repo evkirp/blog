@@ -10,7 +10,7 @@
         <th>Description</th>
       </tr>
       <% @articles.each do |article| %>
-      <tr>
+      <tr class="article">
         <td><%= article.title %></td>
         <td><%= article.description %></td>
         <td><%= link_to "Edit", edit_article_path(article) %></td>
